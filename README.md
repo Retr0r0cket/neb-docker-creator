@@ -4,7 +4,7 @@ Nebulous: Fleet Command Docker Creator is a project to create docker containers 
 - In progress
     - Might nclude an SSH client so you can modify your running server
 
-Modifications and contributions are more than welcome. Just fork it, modify it, and make a pull request when complete.\
+Modifications and contributions are more than welcome. Just fork it, modify it, and make a pull request when complete.
 
 The base image is rebuilt daily in order to keep all packages up to date.
 

@@ -1,10 +1,18 @@
-#
-name: Create and publish a Docker image
+# This is mostly copied from https://docs.github.com/en/actions/publishing-packages/publishing-docker-images
+# I've made a few tweaks for this repo however
+
+name: Update base image
 
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
 on:
   push:
     branches: ['main']
+    paths:
+      - 'base-image/**'
+
+  schedule:
+    - cron: '0 0 * * *'
+
 
 # Defines two custom environment variables for the workflow. These are used for the Container registry domain, and a name for the Docker image that this workflow builds.
 env:
