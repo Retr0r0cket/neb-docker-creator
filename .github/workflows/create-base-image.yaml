@@ -39,4 +39,4 @@ jobs:
         with:
           context: base-image
           push: true
-          tags: retr0r0cket/neb-docker:base
+          tags: ghcr.io/retr0r0cket/neb-docker:base
