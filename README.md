@@ -5,3 +5,5 @@ Nebulous: Fleet Command Docker Creator is a project to create docker containers 
     - Might nclude an SSH client so you can modify your running server
 
 Contributions are more than welcome.
+
+NDS-Watchdog script was created by voodofan on discord and was posted [on the Nebulous: Fleet Command discord](https://discord.com/channels/409638848302153728/1097671127884632215/1190422574904123452).

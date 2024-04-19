@@ -1,0 +1,5 @@
+{
+    "name": "Neb base devcontainer",
+    "image": "ghcr.io/retr0r0cket/neb-docker:base",
+    "remoteUser": "nebhost"
+}
